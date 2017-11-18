@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BuzzFeedHW</string>
+    <string name="buzzfeed_quizzes">BuzzFeed Quizzes</string>
+    <string name="pick_your_favorite_food_and_we_ll_guess_your_age">Pick Your Favorite Food And We\'ll Guess Your Age</string>
+    <string name="take_quiz">TAKE QUIZ</string>
+    <string name="plan_your_office_holiday_party_and_we_ll_reveal_your_office_persona">Plan Your Office Holiday Party And We\'ll Reveal Your Office Persona</string>
+    <string name="pick_a_workout_outfit_and_we_ll_reveal_your_favorite_type_of_exercise">Pick a Workout Outfit And We\'ll Reveal Your Favorite Type Of Exercise</string>
+    <string name="take_quiz">TAKE QUIZ</string>
+    <string name="take_quiz">TAKE QUIZ</string>
+    <string name="take_quiz">TAKE QUIZ</string>
+    <string name="plan_your_office_holiday_party_and_we_ll_reveal_your_work_persona">Plan Your Office Holiday Party And We\'ll Reveal Your Work Persona</string>
+</resources>

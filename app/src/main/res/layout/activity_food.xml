@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nyc.c4q.buzzfeedhw.FoodActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/userSelection_TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_light"
+        android:gravity="top|center"
+        android:orientation="vertical"
+        android:text="Please Select Your Favorite Foods"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="See Results"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="526dp" />
+
+    <LinearLayout
+        android:layout_width="135dp"
+        android:layout_height="433dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="77dp">
+
+        <CheckBox
+            android:id="@+id/burger"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:checked="true"
+            android:drawableBottom="@drawable/burger"
+            android:visibility="visible"
+            tools:ignore="MissingConstraints" />
+
+        <CheckBox
+            android:id="@+id/tacos"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:checked="true"
+            android:drawableBottom="@drawable/tacos"
+            tools:ignore="MissingConstraints" />
+
+        <CheckBox
+            android:id="@+id/pizza"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:checked="true"
+            android:drawableBottom="@drawable/pizza"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="76dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="138dp"
+        android:layout_height="433dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="77dp">
+
+        <CheckBox
+            android:id="@+id/pasta"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:checked="true"
+            android:drawableBottom="@drawable/pasta"
+            tools:ignore="MissingConstraints" />
+
+        <CheckBox
+            android:id="@+id/fish"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:checked="true"
+            android:drawableBottom="@drawable/fish"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="196dp" />
+
+        <CheckBox
+            android:id="@+id/fruits"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:checked="true"
+            android:drawableBottom="@drawable/fruits2"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="135dp"
+        android:layout_height="433dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="276dp"
+        tools:layout_editor_absoluteY="77dp">
+
+
+        <CheckBox
+            android:id="@+id/veggies"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:checked="true"
+            android:drawableBottom="@drawable/veggies"
+            tools:ignore="MissingConstraints" />
+
+        <CheckBox
+            android:id="@+id/rice"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:checked="true"
+            android:drawableBottom="@drawable/rice"
+            tools:ignore="MissingConstraints" />
+
+        <CheckBox
+            android:id="@+id/shoe"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:drawableBottom="@drawable/shoe"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
